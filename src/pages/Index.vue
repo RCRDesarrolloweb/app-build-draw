@@ -1,7 +1,7 @@
 <template>
   <q-page class="fit">
     <div class="absolute-full q-ma-lg draw rounded-borders shadow-5">
-      <canvas v-touch-pan.prevent.touch="draw" ref="canvas" id="canvas" class="fit ">
+      <canvas v-touch-pan.prevent.mouse="draw" v-touch-pan.prevent.touch="draw" ref="canvas" id="canvas" class="fit ">
       </canvas>
     </div>
   </q-page>
